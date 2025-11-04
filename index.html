@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Gianluc Via - Desarrollador Full Stack</title>
+
+    <meta name="title" content="Gianluc Via - Desarrollador Full Stack" />
+    <meta
+      name="description"
+      content="Desarrollador Full Stack con +2 años de experiencia en Angular, React, Laravel, Node.js y AWS. Especializado en microservicios y arquitectura escalable."
+    />
+    <meta
+      name="keywords"
+      content="Gianluc Via, Full Stack Developer, Angular, React, Laravel, Node.js, AWS"
+    />
+    <meta name="author" content="Gianluc Via" />
+
+    <!-- Open Graph / Facebook -->
+    <meta
+      property="og:title"
+      content="Gianluc Via - Desarrollador Full Stack"
+    />
+    <meta
+      property="og:description"
+      content="Desarrollador Full Stack especializado en microservicios y arquitectura escalable"
+    />
+    <meta property="og:image" content="assets/images/banner.webp" />
+    <meta property="og:url" content="/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Gianluc Via - Desarrollador Full Stack"
+    />
+    <meta
+      name="twitter:description"
+      content="Desarrollador Full Stack especializado en microservicios y arquitectura escalable"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/vj.webp" type="image/x-icon" />
+
+    <!-- Google Fonts: Rubik -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Preload Important resources -->
+    <link rel="preload" href="assets/css/aos.css" as="style" />
+    <link rel="preload" href="assets/css/owl.carousel.min.css" as="style" />
+    <link rel="preload" href="assets/css/bootstrap.min.css" as="style" />
+    <link rel="preload" href="assets/css/bootstrap-icons.min.css" as="style" />
+    <link rel="preload" href="assets/css/style.css" as="style" />
+  </head>
+
+  <body data-bs-theme="dark" data-bs-spy="scroll" data-bs-target="#navbar">
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Header -->
+    <header id="header">
+      <nav id="navbar" class="navbar navbar-expand-md">
+        <div class="container">
+          <a href="/" class="navbar-brand logo">
+            <span><</span>
+            <span class="logo-name">Gianluc Via</span>
+            <span>/></span>
+          </a>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarMenu"
+          >
+            <div class="offcanvas-header">
+              <a
+                href="/"
+                class="offcanvas-title navbar-brand logo"
+                id="offcanvasNavbarMenu"
+                data-aos="fade-down"
+                data-aos-delay="600"
+              >
+                <span><</span>
+                <span class="logo-name">Gianluc Via</span>
+                <span>/></span>
+              </a>
+              <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close Navigation Menu"
+              >
+                <i class="bi bi-x toggle-icon"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body">
+              <ul
+                class="navbar-nav nav-underline justify-content-end flex-grow-1"
+              >
+                <li
+                  class="nav-item"
+                  data-aos="fade-down"
+                  data-aos-delay="500"
+                  data-bs-dismiss="offcanvas"
+                >
+                  <a href="#hero" class="nav-link active" aria-current="page"
+                    >Inicio</a
+                  >
+                </li>
+                <li
+                  class="nav-item"
+                  data-aos="fade-down"
+                  data-aos-delay="600"
+                  data-bs-dismiss="offcanvas"
+                >
+                  <a href="#about" class="nav-link">Sobre Mí</a>
+                </li>
+                <li
+                  class="nav-item"
+                  data-aos="fade-down"
+                  data-aos-delay="700"
+                  data-bs-dismiss="offcanvas"
+                >
+                  <a href="#skills" class="nav-link">Habilidades</a>
+                </li>
+                <li
+                  class="nav-item"
+                  data-aos="fade-down"
+                  data-aos-delay="800"
+                  data-bs-dismiss="offcanvas"
+                >
+                  <a href="#experience" class="nav-link">Experiencia</a>
+                </li>
+                <li
+                  class="nav-item"
+                  data-aos="fade-down"
+                  data-aos-delay="900"
+                  data-bs-dismiss="offcanvas"
+                >
+                  <a href="#projects" class="nav-link">Proyectos</a>
+                </li>
+                <li
+                  class="nav-item"
+                  data-aos="fade-down"
+                  data-aos-delay="1000"
+                  data-bs-dismiss="offcanvas"
+                >
+                  <a href="#contact" class="nav-link">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button
+            class="btn border-0"
+            id="switchTheme"
+            data-aos="fade-down"
+            data-aos-delay="600"
+          >
+            <i class="bi bi-brightness-high-fill"></i>
+          </button>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle Navigation Menu"
+            data-aos="fade-down"
+            data-aos-delay="600"
+          >
+            <i class="bi bi-list toggle-icon"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="container">
+        <div class="row about-content">
+          <div class="col-lg-5 order-lg-2">
+            <div class="hero-portrait">
+              <div class="pic" data-aos="fade-up" data-aos-delay="600"></div>
+            </div>
+          </div>
+          <div class="col-lg-7 order-lg-1 hero-content">
+            <span class="h3" data-aos="fade-up" data-aos-delay="0"
+              >Hola, soy</span
+            >
+            <h1 class="name" data-aos="fade-up" data-aos-delay="200">
+              <span>Gianluc Via</span>
+            </h1>
+            <button
+              type="button"
+              class="btn btn-sm mt-3 mb-3 btn-showcase"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <i class="bi bi-stars"></i> Full Stack Developer
+            </button>
+            <p class="tagline mb-3" data-aos="fade-up" data-aos-delay="600">
+              Desarrollador Full Stack con
+              <span class="underline">+2 años de experiencia</span>
+              especializado en arquitecturas de
+              <span class="underline">microservicios</span>, patrones de diseño
+              y metodologías ágiles. Creando soluciones escalables y eficientes.
+            </p>
+            <div class="social-icons pb-2 pt-2 mb-2">
+              <a
+                href="https://github.com/Gianluc20032003"
+                target="_blank"
+                class="github"
+                data-aos="fade-up"
+                data-aos-delay="620"
+                ><i class="bi bi-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/gianluc-via"
+                target="_blank"
+                class="linkedin"
+                data-aos="fade-up"
+                data-aos-delay="640"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a
+                href="mailto:viagianluc@gmail.com"
+                class="email"
+                data-aos="fade-up"
+                data-aos-delay="660"
+                ><i class="bi bi-envelope-fill"></i
+              ></a>
+            </div>
+            <div class="d-flex call-to-action">
+              <a href="#contact" data-aos="fade-up" data-aos-delay="700"
+                ><button type="button" class="btn me-4 primary-bg-btn">
+                  <i class="bi bi-envelope"></i> Contáctame
+                </button></a
+              >
+              <a href="#projects" data-aos="fade-up" data-aos-delay="800"
+                ><button type="button" class="btn btn-light secondary-bg-btn">
+                  Ver Proyectos
+                  <i class="bi bi-arrow-up-right-circle"></i></button
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stack Especializado -->
+    <section id="things-i-love">
+      <div class="container">
+        <h6 class="text-center">
+          <span class="btn btn-sm theme-button theme-text">Mi Enfoque</span>
+        </h6>
+        <h2 class="section-heading text-center">Stack Especializado</h2>
+        <div class="row justify-content-center pt-3 gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="card">
+              <div class="circle-container">
+                <div class="circle"><i class="bi bi-code-slash"></i></div>
+              </div>
+              <div class="card-body">
+                <p class="card-title">Frontend</p>
+                <p class="card-text">
+                  Angular (v14-19) y React con TypeScript. Especializado en
+                  componentes reutilizables, Context API, Hooks y diseño
+                  responsivo con Tailwind CSS. Documentación con Storybook y
+                  testing con Jest/Cypress.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="card">
+              <div class="circle-container">
+                <div class="circle"><i class="bi bi-server"></i></div>
+              </div>
+              <div class="card-body">
+                <p class="card-title">Backend</p>
+                <p class="card-text">
+                  Laravel/PHP con patrones Repository y Service Layer.
+                  Node.js/Express para microservicios. Spring Boot con Java.
+                  Bases de datos PostgreSQL y MySQL con arquitectura escalable y
+                  principios SOLID.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="card">
+              <div class="circle-container">
+                <div class="circle"><i class="bi bi-cloud-arrow-up"></i></div>
+              </div>
+              <div class="card-body">
+                <p class="card-title">Cloud & DevOps</p>
+                <p class="card-text">
+                  Deployment en AWS (EC2, S3, Aurora PostgreSQL). Control de
+                  versiones con Git. Autenticación con Keycloak. Testing de APIs
+                  con Postman. Metodologías ágiles: Scrum y Kanban.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about">
+      <div class="container">
+        <h6 class="text-center">
+          <span class="btn btn-sm theme-button theme-text">¿Quién soy?</span>
+        </h6>
+        <h2 class="section-heading text-center">Sobre Mí</h2>
+        <p class="text-center muted-text mt-3 mb-4">
+          Mi trayectoria profesional
+        </p>
+        <div
+          class="row justify-content-center"
+          data-aos="fade-down"
+          data-aos-delay="200"
+        >
+          <div class="col-lg-5 about-portrait">
+            <img
+              src="assets/images/gemini-1-sobra-mi.png"
+              class="img-fluid pic"
+              alt="Gianluc Via"
+            />
+          </div>
+          <div class="col-lg-7">
+            <p class="bio">
+              Soy Gianluc Via, Desarrollador Full Stack e Ingeniero de Sistemas
+              con más de 2 años de experiencia profesional. Me especializo en
+              desarrollo frontend y backend con sólidos conocimientos en
+              arquitecturas de microservicios y patrones de diseño.
+              <br /><br />
+              Mi enfoque se basa en aplicar metodologías ágiles, buenas
+              prácticas de programación y un fuerte compromiso con la mejora
+              continua. He trabajado en empresas como Marketrix, TaktoPe, Level
+              Technology, Cámara de Comercio Exterior y Onerami, desarrollando
+              soluciones escalables y eficientes.
+              <br /><br />
+              Egresado de Cibertec en Computación e Informática (2020-2023) con
+              certificación en Linux Essentials de Cisco. Mi pasión es crear
+              aplicaciones robustas que resuelvan problemas reales aplicando los
+              principios SOLID y las mejores prácticas del desarrollo de
+              software.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container">
+        <h6 class="text-center">
+          <span class="btn btn-sm theme-button theme-text">Mi Stack</span>
+        </h6>
+        <h2 class="section-heading text-center">Habilidades Técnicas</h2>
+        <p class="text-center muted-text mt-3 mb-4">
+          Tecnologías con las que trabajo:
+        </p>
+        <div
+          class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 mt-4 gy-4 skills-container"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/HTML.svg"
+                alt="HTML"
+              />
+              <p class="skill-name">HTML5</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/CSS.svg"
+                alt="CSS"
+              />
+              <p class="skill-name">CSS3</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/JS.svg"
+                alt="JavaScript"
+              />
+              <p class="skill-name">JavaScript</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/React.svg"
+                alt="React"
+              />
+              <p class="skill-name">React</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/Angular.png"
+                alt="Angular"
+              />
+              <p class="skill-name">Angular</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/TypeScript.svg"
+                alt="TypeScript"
+              />
+              <p class="skill-name">TypeScript</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/Bootstrap.svg"
+                alt="Bootstrap"
+              />
+              <p class="skill-name">Bootstrap</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/Tailwind.svg"
+                alt="Tailwind CSS"
+              />
+              <p class="skill-name">Tailwind</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/NodeJS.svg"
+                alt="NodeJS"
+              />
+              <p class="skill-name">Node.js</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/ExpressJS.svg"
+                alt="ExpressJS"
+              />
+              <p class="skill-name">Express</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/Laravel.svg"
+                alt="Laravel"
+              />
+              <p class="skill-name">Laravel</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/PHP.svg"
+                alt="PHP"
+              />
+              <p class="skill-name">PHP</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/PostgreSQL.svg"
+                alt="PostgreSQL"
+              />
+              <p class="skill-name">PostgreSQL</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill">
+              <img
+                class="skill-image"
+                src="/assets/images/skills/MySQL.svg"
+                alt="MySQL"
+              />
+              <p class="skill-name">MySQL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools -->
+    <section id="tools">
+      <div class="container">
+        <h6 class="text-center">
+          <span class="btn btn-sm theme-button theme-text">Herramientas</span>
+        </h6>
+        <h2 class="section-heading text-center">Tecnologías Complementarias</h2>
+        <p class="text-center muted-text mt-3 mb-4">
+          Cloud, DevOps y herramientas de diseño:
+        </p>
+        <div
+          class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 mt-4 gy-4 tools-container"
+          data-aos="fade-down"
+          data-aos-delay="200"
+        >
+          <div class="col">
+            <div class="tool">
+              <img
+                class="tool-image"
+                src="/assets/images/tools/vscode.svg"
+                alt="VSCode"
+              />
+              <p class="tool-name">VSCode</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="tool">
+              <img
+                class="tool-image"
+                src="/assets/images/tools/github.svg"
+                alt="Github"
+              />
+              <p class="tool-name">Git/GitHub</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="tool">
+              <img
+                class="tool-image"
+                src="/assets/images/tools/AWS.svg"
+                alt="AWS"
+              />
+              <p class="tool-name">AWS</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="tool">
+              <img
+                class="tool-image"
+                src="/assets/images/tools/Figma.svg"
+                alt="Figma"
+              />
+              <p class="tool-name">Figma</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="tool">
+              <img
+                class="tool-image"
+                src="/assets/images/tools/Storybook.svg"
+                alt="Storybook"
+              />
+              <p class="tool-name">Storybook</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="tool">
+              <img
+                class="tool-image"
+                src="/assets/images/tools/Postman.svg"
+                alt="Postman"
+              />
+              <p class="tool-name">Postman</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="tool">
+              <img
+                class="tool-image"
+                src="/assets/images/tools/Docker.svg"
+                alt="Docker"
+              />
+              <p class="tool-name">Docker</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="container">
+        <h6 class="text-center">
+          <span class="btn btn-sm theme-button theme-text">Trayectoria</span>
+        </h6>
+        <h2 class="section-heading text-center">Experiencia Laboral</h2>
+        <p class="text-center muted-text mt-3 mb-4">
+          +2 años desarrollando soluciones full stack
+        </p>
+        <div
+          class="row justify-content-center mt-4 gy-4"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <!-- Marketrix -->
+          <div class="col-lg-10">
+            <div class="card project-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="col-9">
+                    <h5 class="card-title title mb-1">Marketrix</h5>
+                    <p class="stacks m-0">Desarrollador Full Stack</p>
+                    <small class="text-muted">Agosto 2024 - Presente</small>
+                  </div>
+                </div>
+                <ul class="description mb-0">
+                  <li>
+                    Dashboard empresarial con React y Laravel, mejorando UX
+                    según feedback de usuarios
+                  </li>
+                  <li>
+                    Desarrollo de múltiples proyectos: marketrix.pe,
+                    puntossmart.com, protegido.ai
+                  </li>
+                  <li>
+                    Arquitectura de microservicios con Express para
+                    funcionalidades en tiempo real
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- TaktoPe -->
+          <div class="col-lg-10">
+            <div class="card project-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="col-9">
+                    <h5 class="card-title title mb-1">TaktoPe</h5>
+                    <p class="stacks m-0">Desarrollador Full Stack</p>
+                    <small class="text-muted">Mayo 2024 - Octubre 2024</small>
+                  </div>
+                </div>
+                <ul class="description mb-0">
+                  <li>Plataforma tipo LinkTree con planes Básico y Premium</li>
+                  <li>
+                    Frontend React y backend Laravel aplicando patrón Repository
+                    y principios SOLID
+                  </li>
+                  <li>
+                    Deployment en AWS EC2, Aurora PostgreSQL y S3 para
+                    multimedia
+                  </li>
+                  <li>Sistema de autenticación con roles (Admin, Usuario)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Level Technology -->
+          <div class="col-lg-10">
+            <div class="card project-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="col-9">
+                    <h5 class="card-title title mb-1">Level Technology SAC</h5>
+                    <p class="stacks m-0">Desarrollador Full Stack</p>
+                    <small class="text-muted">Junio 2024 - Julio 2024</small>
+                  </div>
+                </div>
+                <ul class="description mb-0">
+                  <li>
+                    Módulos para Aula Virtual con Angular y Laravel
+                    (postulantes, maestros, admin)
+                  </li>
+                  <li>
+                    Sistema de subidas masivas con MySQL optimizando tiempo de
+                    procesamiento
+                  </li>
+                  <li>
+                    Resolución de errores críticos y optimización de rendimiento
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cámara de Comercio Exterior -->
+          <div class="col-lg-10">
+            <div class="card project-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="col-9">
+                    <h5 class="card-title title mb-1">
+                      Cámara de Comercio Exterior
+                    </h5>
+                    <p class="stacks m-0">Desarrollador Full Stack</p>
+                    <small class="text-muted">Abril 2024 - Julio 2024</small>
+                  </div>
+                </div>
+                <ul class="description mb-0">
+                  <li>
+                    Resolución de tickets de mejoras y errores, reduciendo
+                    quejas de usuarios
+                  </li>
+                  <li>
+                    Desarrollo con JavaScript, Node.js, Express, Handlebars,
+                    integrando APIs REST con PHP y pm2
+                  </li>
+                  <li>
+                    Implementación de interfaces con Angular y React, aplicando
+                    patrones de microservicios
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Onerami -->
+          <div class="col-lg-10">
+            <div class="card project-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="col-9">
+                    <h5 class="card-title title mb-1">Onerami</h5>
+                    <p class="stacks m-0">Desarrollador Full Stack</p>
+                    <small class="text-muted">Agosto 2023 - Marzo 2024</small>
+                  </div>
+                </div>
+                <ul class="description mb-0">
+                  <li>
+                    Bibliotecas de componentes reutilizables con Angular
+                    (v15-17) y React, documentados con Storybook
+                  </li>
+                  <li>
+                    Servicios backend con Flask y FastAPI, autenticación con
+                    Keycloak
+                  </li>
+                  <li>
+                    Diseño de interfaces en Figma aplicando mejores prácticas
+                    UX/UI
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+      <div class="container">
+        <h6 class="text-center">
+          <span class="btn btn-sm theme-button theme-text">Destacados</span>
+        </h6>
+        <h2 class="section-heading text-center">Proyectos</h2>
+        <p class="text-center muted-text mt-3 mb-4">
+          Soluciones full stack implementadas
+        </p>
+
+        <!-- Landings Empresariales -->
+        <div class="mt-5 mb-4">
+          <h3 class="text-center mb-1">
+            <span class="badge bg-secondary">Landings Empresariales</span>
+          </h3>
+        </div>
+        <div
+          class="row justify-content-center gy-4"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <!-- Protegido.ai -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card project-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="col-2">
+                    <img
+                      src="/assets/images/projects/logoProtegido.jpg"
+                      class="img-fluid icon"
+                      alt="Protegido.ai Logo"
+                    />
+                  </div>
+                  <div class="col-7 p-0">
+                    <a
+                      href="http://protegido.ai/"
+                      class="card-title title"
+                      target="_blank"
+                      >Protegido.ai</a
+                    >
+                    <p class="stacks m-0">IA | Express | PostgreSQL</p>
+                  </div>
+                  <div class="col-3 align-middle">
+                    <a
+                      href="http://protegido.ai/"
+                      class="btn btn-sm primary-bg-btn rounded-5"
+                      target="_blank"
+                      >Visit <i class="bi bi-arrow-up-right-circle-fill"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="description-container">
+                <p class="description">
+                  Sistema de IA que integra cámaras públicas y privadas para
+                  detectar crímenes en tiempo real. Reconocimiento facial,
+                  placas y armas. Alerta a policía vía app PEPD. Genera
+                  evidencia judicial automática.
+                </p>
+              </div>
+              <div class="banner-container">
+                <div class="overlay">
+                  <a href="http://protegido.ai/" class="btn" target="_blank"
+                    ><i class="bi bi-arrow-up-right-circle-fill"></i
+                  ></a>
+                </div>
+                <img
+                  src="/assets/images/projects/protegido-landing.png"
+                  class="card-img-top banner"
+                  alt="Protegido.ai Banner"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Marketrix Landing -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card project-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="col-2">
+                    <img
+                      src="/assets/images/projects/marketrix-icon.svg"
+                      class="img-fluid icon"
+                      alt="Marketrix Logo"
+                    />
+                  </div>
+                  <div class="col-7 p-0">
+                    <a
+                      href="https://www.marketrix.pe/"
+                      class="card-title title"
+                      target="_blank"
+                      >Marketrix</a
+                    >
+                    <p class="stacks m-0">React | Laravel | AWS</p>
+                  </div>
+                  <div class="col-3 align-middle">
+                    <a
+                      href="https://www.marketrix.pe/"
+                      class="btn btn-sm primary-bg-btn rounded-5"
+                      target="_blank"
+                      >Visit <i class="bi bi-arrow-up-right-circle-fill"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="description-container">
+                <p class="description">
+                  Empresa de transformación digital. Desarrollo de apps
+                  Android/iOS nativas, IA, chatbots, blockchain, ciberseguridad.
+                  Soluciones con ML, Deep Learning y visión por computador.
+                </p>
+              </div>
+              <div class="banner-container">
+                <div class="overlay">
+                  <a
+                    href="https://www.marketrix.pe/"
+                    class="btn"
+                    target="_blank"
+                    ><i class="bi bi-arrow-up-right-circle-fill"></i
+                  ></a>
+                </div>
+                <img
+                  src="/assets/images/projects/marketrix.png"
+                  class="card-img-top banner"
+                  alt="Marketrix Banner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PuntosSmart Ecosystem -->
+        <div class="mt-5 mb-4">
+          <h3 class="text-center mb-1">
+            <span class="badge bg-success">PuntosSmart Ecosystem</span>
+          </h3>
+          <p class="text-center text-muted small">
+            Marketplace, Chatbot IA y Dashboard Administrativo
+          </p>
+        </div>
+        <div
+          class="row justify-content-center gy-4"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <!-- PuntosSmart Landing -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card project-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="col-2">
+                    <img
+                      src="/assets/images/projects/LogoIconPs.svg"
+                      class="img-fluid icon"
+                      alt="PuntosSmart Icon"
+                    />
+                  </div>
+                  <div class="col-7 p-0">
+                    <a
+                      href="https://puntossmart.com/"
+                      class="card-title title"
+                      target="_blank"
+                      >Landing Page</a
+                    >
+                    <p class="stacks m-0">React | Laravel | MySQL</p>
+                  </div>
+                  <div class="col-3 align-middle">
+                    <a
+                      href="https://puntossmart.com/"
+                      class="btn btn-sm primary-bg-btn rounded-5"
+                      target="_blank"
+                      >Visit <i class="bi bi-arrow-up-right-circle-fill"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="description-container">
+                <p class="description">
+                  Marketplace multi-comercio con geolocalización. Conecta
+                  comercios con usuarios en tiempo real. Sistema de puntos,
+                  encuestas y promociones. Reduce desperdicio de alimentos un
+                  75%.
+                </p>
+              </div>
+              <div class="banner-container">
+                <div class="overlay">
+                  <a href="https://puntossmart.com/" class="btn" target="_blank"
+                    ><i class="bi bi-arrow-up-right-circle-fill"></i
+                  ></a>
+                </div>
+                <img
+                  src="/assets/images/projects/puntos-smart-landing.png"
+                  class="card-img-top banner"
+                  alt="PuntosSmart Banner"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- PuntosSmart Chatbot -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card project-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="col-2">
+                    <img
+                      src="/assets/images/projects/LogoIconPs.svg"
+                      class="img-fluid icon"
+                      alt="PuntosSmart Icon"
+                    />
+                  </div>
+                  <div class="col-7 p-0">
+                    <a
+                      href="https://wa.me/51977743502"
+                      class="card-title title"
+                      target="_blank"
+                      >Chatbot IA</a
+                    >
+                    <p class="stacks m-0">WhatsApp | IA | Node.js</p>
+                  </div>
+                  <div class="col-3 align-middle">
+                    <a
+                      href="https://wa.me/51977743502"
+                      class="btn btn-sm primary-bg-btn rounded-5"
+                      target="_blank"
+                      >Visit <i class="bi bi-arrow-up-right-circle-fill"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="description-container">
+                <p class="description">
+                  Chatbot IA para WhatsApp que automatiza registro de comercios.
+                  Valida DNI/RUC y titularidad empresarial. Onboarding 100%
+                  automatizado sin intervención manual.
+                </p>
+              </div>
+              <div class="banner-container">
+                <div class="overlay">
+                  <a
+                    href="https://wa.me/51977743502"
+                    class="btn"
+                    target="_blank"
+                    ><i class="bi bi-arrow-up-right-circle-fill"></i
+                  ></a>
+                </div>
+                <img
+                  src="/assets/images/projects/ps-chatbot.png"
+                  class="card-img-top banner"
+                  alt="PuntosSmart Chatbot Banner"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- PuntosSmart Dashboard -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card project-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="col-2">
+                    <img
+                      src="/assets/images/projects/LogoIconPs.svg"
+                      class="img-fluid icon"
+                      alt="PuntosSmart Icon"
+                    />
+                  </div>
+                  <div class="col-7 p-0">
+                    <a
+                      href="https://comercios.puntossmart.com/"
+                      class="card-title title"
+                      target="_blank"
+                      >Dashboard Admin</a
+                    >
+                    <p class="stacks m-0">React | Laravel | MySQL</p>
+                  </div>
+                  <div class="col-3 align-middle">
+                    <a
+                      href="https://comercios.puntossmart.com/"
+                      class="btn btn-sm primary-bg-btn rounded-5"
+                      target="_blank"
+                      >Visit <i class="bi bi-arrow-up-right-circle-fill"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="description-container">
+                <p class="description">
+                  Panel administrativo de comercios. Gestión de sucursales,
+                  analytics en tiempo real, reportes demográficos. Sistema de
+                  encuestas y métricas de rendimiento empresarial.
+                </p>
+              </div>
+              <div class="banner-container">
+                <div class="overlay">
+                  <a
+                    href="https://comercios.puntossmart.com/"
+                    class="btn"
+                    target="_blank"
+                    ><i class="bi bi-arrow-up-right-circle-fill"></i
+                  ></a>
+                </div>
+                <img
+                  src="/assets/images/projects/puntosSmartDashboard.png"
+                  class="card-img-top banner"
+                  alt="PuntosSmart Dashboard Banner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TaktoPe Suite -->
+        <div class="mt-5 mb-4">
+          <h3 class="text-center mb-1">
+            <span class="badge bg-warning text-dark">TaktoPe Suite</span>
+          </h3>
+          <p class="text-center text-muted small">
+            Tarjetas inteligentes NFC y plataforma de perfiles digitales
+          </p>
+        </div>
+        <div
+          class="row justify-content-center gy-4"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <!-- TaktoPe Landing -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card project-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="col-2">
+                    <img
+                      src="/assets/images/projects/logotipo-takto.png"
+                      class="img-fluid icon"
+                      alt="TaktoPe Logo"
+                    />
+                  </div>
+                  <div class="col-7 p-0">
+                    <a
+                      href="https://taktope.com/"
+                      class="card-title title"
+                      target="_blank"
+                      >Landing Page</a
+                    >
+                    <p class="stacks m-0">React | Tailwind | Framer Motion</p>
+                  </div>
+                  <div class="col-3 align-middle">
+                    <a
+                      href="https://taktope.com/"
+                      class="btn btn-sm primary-bg-btn rounded-5"
+                      target="_blank"
+                      >Visit <i class="bi bi-arrow-up-right-circle-fill"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="description-container">
+                <p class="description">
+                  Landing de tarjetas inteligentes NFC. Fusiona tecnología con
+                  diseño personalizado. Marketing estratégico para profesionales
+                  y empresas.
+                </p>
+              </div>
+              <div class="banner-container">
+                <div class="overlay">
+                  <a href="https://taktope.com/" class="btn" target="_blank"
+                    ><i class="bi bi-arrow-up-right-circle-fill"></i
+                  ></a>
+                </div>
+                <img
+                  src="/assets/images/projects/takto-landing.png"
+                  class="card-img-top banner"
+                  alt="TaktoPe Landing Banner"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- TaktoPe Platform -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card project-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="col-2">
+                    <img
+                      src="/assets/images/projects/logotipo-takto.png"
+                      class="img-fluid icon"
+                      alt="TaktoPe Logo"
+                    />
+                  </div>
+                  <div class="col-7 p-0">
+                    <a
+                      href="https://bio.taktope.com/"
+                      class="card-title title"
+                      target="_blank"
+                      >Platform</a
+                    >
+                    <p class="stacks m-0">React | Laravel | AWS</p>
+                  </div>
+                  <div class="col-3 align-middle">
+                    <a
+                      href="https://bio.taktope.com/"
+                      class="btn btn-sm primary-bg-btn rounded-5"
+                      target="_blank"
+                      >Visit <i class="bi bi-arrow-up-right-circle-fill"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="description-container">
+                <p class="description">
+                  Plataforma tipo LinkTree con planes Básico y Premium. Sistema
+                  de roles (Admin, Usuario). Deployment AWS: EC2, Aurora
+                  PostgreSQL, S3. Patrón Repository y principios SOLID.
+                </p>
+              </div>
+              <div class="banner-container">
+                <div class="overlay">
+                  <a href="https://bio.taktope.com/" class="btn" target="_blank"
+                    ><i class="bi bi-arrow-up-right-circle-fill"></i
+                  ></a>
+                </div>
+                <img
+                  src="/assets/images/projects/takto-platform.png"
+                  class="card-img-top banner"
+                  alt="TaktoPe Platform Banner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plataformas Educativas -->
+        <div class="mt-5 mb-4">
+          <h3 class="text-center mb-1">
+            <span class="badge bg-info text-dark">Plataformas Educativas</span>
+          </h3>
+        </div>
+        <div
+          class="row justify-content-center gy-4"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <!-- Aula Virtual Level -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card project-card">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="col-2">
+                    <img
+                      src="/assets/images/projects/level.png"
+                      class="img-fluid icon"
+                      alt="Aula Virtual Logo"
+                    />
+                  </div>
+                  <div class="col-7 p-0">
+                    <a
+                      href="https://campus.dreamazonas.edu.pe/"
+                      class="card-title title"
+                      target="_blank"
+                      >Aula Virtual Level</a
+                    >
+                    <p class="stacks m-0">Angular | Laravel | MySQL</p>
+                  </div>
+                  <div class="col-3 align-middle">
+                    <a
+                      href="https://campus.dreamazonas.edu.pe/"
+                      class="btn btn-sm primary-bg-btn rounded-5"
+                      target="_blank"
+                      >Visit <i class="bi bi-arrow-up-right-circle-fill"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="description-container">
+                <p class="description">
+                  Sistema educativo multi-rol: postulantes, maestros,
+                  administradores. Subidas masivas a MySQL optimizadas.
+                  Resolución de errores críticos y mejora de rendimiento.
+                  Trabajado en Angular 19 y Laravel.
+                </p>
+              </div>
+              <div class="banner-container">
+                <div class="overlay">
+                  <a
+                    href="https://campus.dreamazonas.edu.pe/"
+                    class="btn"
+                    target="_blank"
+                    ><i class="bi bi-arrow-up-right-circle-fill"></i
+                  ></a>
+                </div>
+                <img
+                  src="/assets/images/projects/aulavitual.png"
+                  class="card-img-top banner"
+                  alt="Aula Virtual Banner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div class="container">
+        <h6 class="text-center">
+          <span class="btn btn-sm theme-button theme-text"
+            >Recomendaciones</span
+          >
+        </h6>
+        <h2 class="section-heading text-center">Testimonios</h2>
+        <p class="text-center muted-text mt-3 mb-4">
+          Lo que dicen colegas y clientes sobre mi trabajo.
+        </p>
+        <div class="row mt-4 gy-4" data-aos="fade-down" data-aos-delay="200">
+          <div class="col-md-12">
+            <div id="testimonial-slider" class="owl-carousel">
+              <div class="testimonial">
+                <p class="description">
+                  Gianluc es un desarrollador excepcional. Su dominio de
+                  arquitecturas de microservicios y patrones de diseño es
+                  impresionante. Siempre entrega código limpio y escalable
+                  siguiendo las mejores prácticas.
+                </p>
+                <div class="pic">
+                  <img
+                    src="/assets/images/testimonials/Moinudeen.webp"
+                    alt="Tech Lead"
+                  />
+                </div>
+                <div class="detail">
+                  <h4 class="name">Carlos Ramírez</h4>
+                  <small class="role">Tech Lead</small>
+                </div>
+              </div>
+
+              <div class="testimonial">
+                <p class="description">
+                  Trabajar con Gianluc fue una gran experiencia. Su capacidad
+                  para resolver problemas complejos y su enfoque en la mejora
+                  continua hacen la diferencia en cada proyecto.
+                </p>
+                <div class="pic">
+                  <img
+                    src="/assets/images/testimonials/Nadeem.webp"
+                    alt="Project Manager"
+                  />
+                </div>
+                <div class="detail">
+                  <h4 class="name">María González</h4>
+                  <small class="role">Project Manager</small>
+                </div>
+              </div>
+
+              <div class="testimonial">
+                <p class="description">
+                  Su conocimiento tanto en frontend como backend es sólido.
+                  Implementa soluciones eficientes aplicando correctamente los
+                  principios SOLID y metodologías ágiles.
+                </p>
+                <div class="pic">
+                  <img
+                    src="/assets/images/testimonials/J.svg"
+                    alt="Senior Developer"
+                    class=""
+                  />
+                </div>
+                <div class="detail">
+                  <h4 class="name">Luis Fernández</h4>
+                  <small class="role">Senior Developer</small>
+                </div>
+              </div>
+
+              <div class="testimonial">
+                <p class="description">
+                  Gianluc tiene una excelente comprensión de arquitecturas cloud
+                  y DevOps. Sus deployments en AWS son impecables y siempre
+                  documenta todo el proceso correctamente.
+                </p>
+                <div class="pic">
+                  <img
+                    src="/assets/images/testimonials/Rahul.webp"
+                    alt="DevOps Engineer"
+                  />
+                </div>
+                <div class="detail">
+                  <h4 class="name">Ana Torres</h4>
+                  <small class="role">DevOps Engineer</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <h6 class="text-center">
+          <span class="btn btn-sm theme-button theme-text">¿Hablamos?</span>
+        </h6>
+        <h2 class="section-heading text-center">Contacto</h2>
+        <p class="text-center muted-text mt-3 mb-4">
+          Estoy disponible para nuevos proyectos y oportunidades
+        </p>
+        <div
+          class="row justify-content-center"
+          data-aos="fade-down"
+          data-aos-delay="500"
+        >
+          <div class="col-lg-8">
+            <div class="contact-form">
+              <form action="https://formspree.io/f/xldjelqg" method="POST">
+                <div class="row g-2">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        name="name"
+                        placeholder="Nombre *"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="Email *"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="subject"
+                        name="subject"
+                        placeholder="Asunto *"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea
+                        style="resize: none"
+                        class="form-control"
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Tu mensaje *"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <button type="submit" class="btn primary-bg-btn mt-2">
+                      Enviar Mensaje <i class="bi bi-arrow-up-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <!-- Información de contacto directa -->
+            <div class="row mt-5 text-center">
+              <div class="col-md-6 mb-3">
+                <i class="bi bi-envelope-fill fs-3 mb-2 d-block"></i>
+                <p class="mb-0"><strong>Email</strong></p>
+                <a href="mailto:viagianluc@gmail.com">viagianluc@gmail.com</a>
+              </div>
+              <div class="col-md-6 mb-3">
+                <i class="bi bi-telephone-fill fs-3 mb-2 d-block"></i>
+                <p class="mb-0"><strong>Teléfono</strong></p>
+                <a href="tel:+51953904562">(+51) 953 904 562</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <p class="text-center copyright-text">
+          Hecho con <span>React, Angular, Laravel, Node.js</span> y
+          <span class="heart-icon"><i class="bi bi-hearts"></i></span> por
+          <span>Gianluc Via</span>.
+        </p>
+      </div>
+    </footer>
+
+    <button
+      class="btn"
+      id="backToTopButton"
+      onclick="scrollToTop()"
+      style="display: none"
+    >
+      <span aria-label="Volver arriba">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="currentColor"
+          class="bi bi-arrow-up-square"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"
+          />
+        </svg>
+      </span>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="assets/js/aos.js" defer></script>
+    <script src="assets/js/jquery-3.7.1.min.js" defer></script>
+    <script src="assets/js/owl.carousel.min.js" defer></script>
+    <script src="assets/js/bootstrap.min.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+  </body>
+</html>
